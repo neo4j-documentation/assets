@@ -1,0 +1,15 @@
+= Neo4j Documentation Assets
+
+This repository contains all the assets (mostly images) used on the Neo4j documentation site.
+
+Assets are automatically uploaded to a CDN (S3 bucket) using a GitHub Actions and will be available at: https://dist.neo4j.com/wp-content/uploads.
+
+== Directory Structure and Naming
+
+Since we are using a flat structure, naming is crucial.
+
+Please use the following convention to name a new asset:
+
+- Use a clear and descriptive name
+- Use lowercase
+- Use `-` as a separator between words
