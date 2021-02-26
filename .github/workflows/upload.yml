@@ -1,12 +1,11 @@
 name: Upload
 
 on:
-  push:
-    # disabled for now
-    branches-ignore:
-      - '**'
-    branches:
-    - main
+  workflow_dispatch:
+# disabled for now
+#  push:
+#    branches:
+#    - main
 
 jobs:
   deploy:
